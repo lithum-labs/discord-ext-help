@@ -8,7 +8,7 @@ class extension:
     def __init__(self, bot: commands.Bot) -> None:
         self.bot = bot
         self.config = {
-            "embed_title": "{}'s command list".format(bot.user.name),
+            "embed_title": "command list".format(bot.user.name),
             "description_not_found": "There is no description for this command.",
             "description_not_found_group": "There is no description for this command group."
         }
