@@ -1,6 +1,7 @@
 # discord.ext.help
 > [!NOTE]
 > The specification has changed from the legacy version (0.x), and this library now only supports help generation for application commands.
+> 
 A discord.py extension that automatically generates interaction help commands.
 
 ## Dependency
