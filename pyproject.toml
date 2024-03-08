@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "discord-ext-help"
+version = "0.0.0"
+description = "A discord.py extension that automatically generates interaction help commands."
+authors = ["sonyakun <owner@sonyakun.com>"]
+readme = "README.md"
+repository = "https://github.com/sonyakun/discord-ext-help"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+reactionmenu = "^3.1.5"
+discord-py = "^2.0.0"
+
+[tool.poetry.group.docs]
+optional = true
+
+[tool.poetry.group.docs.dependencies]
+mkdocs = "^1.5.3"
+mkdocs-material = "^9.5.13"
+
+[tool.poetry-version-plugin]
+source = "git-tag"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

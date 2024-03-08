@@ -1,0 +1,17 @@
+site_name: discord_ext_help
+repo_name: lithum-labs/discord-ext-help
+repo_url: https://github.com/lithum-labs/discord-ext-help
+theme:
+  name: material
+  language: ja
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
